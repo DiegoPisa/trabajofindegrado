@@ -1,0 +1,1709 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background: url("../imagenes/L3mao-Gaming1-ConvertImage.png");
+}
+
+header {
+	width:100%;
+}
+
+header nav {
+	width:100%;
+	max-width:100%;
+	
+	background:black;
+}
+
+.menu_bar {
+	display:none;
+}
+
+header nav ul {
+	overflow:hidden;
+	list-style:none;
+}
+
+header nav ul li {
+	float:left;
+}
+
+header nav ul li a {
+	color:#fff;
+	padding:20px;
+	display:block;
+	text-decoration:none;
+}
+
+header nav ul li span {
+	margin-right:10px;
+}
+
+header nav ul li a:hover {
+    background:white;
+    color: black;
+}
+
+section {
+	padding:20px;
+}
+@media screen and (min-width:800px){
+
+    
+ ul{
+    display: flex;
+    align-items:center;
+}
+nav{
+    display: flex;
+} 
+}
+@media screen and (max-width:800px ) {
+    .slider{
+        width: 400px !important;
+      margin-left:5px !important ;
+      
+    }
+    #pieslider{
+        width: 90% !important;
+        margin-left: 140px !important;
+    }
+    .res1300{
+        display: flex !important;
+        flex-direction: column !important;
+
+
+    }
+    #anunciomedio{
+        max-height: 200px !important;
+        max-width: 400px !important;
+    }
+    .escalasmediastop{
+        display: flex;
+        flex-direction: column;
+    }
+  .divprods1{
+        width: 90% !important;
+        
+    } 
+    .divprods1 p{
+        font-size: 45px !important;
+    }
+    #tienda{
+        padding-right: 20px !important;
+    }
+    #princ{
+        height: 270px !important;
+    }
+    #secun1,#secun2{
+        height: 80px !important;
+    }
+	header nav {
+		width:80%;
+		height:100%;
+		left:-100%;
+		margin:0;
+		position: fixed;
+	}
+	
+  video{
+	  margin-left: 5px !important;
+	  max-width: 95%;
+  }
+    nav,ul{
+        display: inline;
+    }
+    #logo,#lilogo{
+        display: none;
+    }
+	header nav ul li {
+		display:block;
+		float:none;
+		border-bottom:1px solid rgba(255,255,255, .3);
+	}
+
+	.menu_bar {
+		display:block;
+		width:100%;
+		background:white;
+	}
+
+	.menu_bar .bt-menu {
+		display:block;
+		padding:20px;
+		background:black;
+		color:#fff;
+		text-decoration:none;
+		font-weight: bold;
+		font-size:25px;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+	}
+
+	.menu_bar span {
+		float:right;
+		font-size:40px;
+	}
+}
+#logo{
+    height:100px;
+    width: 100px;
+}
+#logmenu{
+    height:70px;
+    width: 70px;
+}
+#anuncio{
+	background-color: cyan;
+}
+/* footer {
+	background-color: cyan;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	
+  } */
+  /* .footer_social{
+	
+	padding:20px;
+	
+	float: right;
+
+	font-size:25px;
+	
+  }
+  .footer_social a{
+	text-decoration: none;
+	
+  } */
+  video{
+	  margin-left: 50px;
+	  margin-top: 50px;
+	 
+	  
+  }
+  /* footer{
+background-color: cyan;
+	border:2px solid white;
+	position: fixed;
+    left: 0;
+    bottom: 0;
+	width: 100%;
+	max-height:100px ;
+  } */
+
+  .icon-youtube{
+	  color: white;
+	  
+  }
+  .icon-youtube:hover,.icon-youtube:focus{
+	  color: #E83028;
+  }
+  .icon-facebook2{
+	  color: white;
+  }
+  .icon-facebook2:hover,.icon-facebook2:focus{
+	color: #2E406E;
+}
+  .icon-discord{
+	  background-color: #677BC4;
+  }
+  .icon-twitter{
+	color: white;
+  }
+  .icon-twitter:hover,.icon-twitter:focus{
+	color:#339DC5 ;
+}
+  
+  .icon-instagram{
+	  color: white;
+	  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+	  
+  }
+  .icon-instagram:hover,.icon-instagram:focus{
+	color:#E1306C ;
+}
+  .icon-twitch{
+	  color:white;
+  }
+  .icon-twitch:hover,.icon-twitch:focus{
+	color:#9146FF ;
+}
+  
+#rights{
+	  text-align: center;
+	  font-weight: bold;
+	  font-size: 20px;
+  }
+  .copyright{
+	  display: flex;
+  }
+  /* footer h3{
+	  display: block;
+	  margin-top: 15px;
+  } */
+  footer{
+    width: 100%;
+    background: #202020;
+	color: white;   
+	max-width: 100%;
+    
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colum1{
+    max-width: 400px;
+}
+
+.colum1 h1{
+    font-size: 22px;
+}
+
+.colum1 p{
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+
+.colum2{
+    max-width: 400px;
+    
+}
+
+.colum2 h1{
+    font-size: 22px;
+}
+
+.row{
+    margin-top: 20px;
+	display: flex;
+	
+}
+.row a{
+	text-decoration: none;
+	color:white;
+}
+
+.row img{
+    width: 36px;
+    height: 36px;
+}
+
+.row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+}
+
+.colum3{
+    max-width: 400px;
+}
+
+.colum3 h1{
+    font-size: 22px;
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+
+/* .row2 label{
+    margin-top: 10px;
+    margin-left: 10px;
+    max-width: 140px;
+} */
+
+.container-footer{
+    width: 100%;  
+    background: #101010;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;  
+	padding: 20px;
+	position: fixed;
+}
+
+.copyright{
+    color: #C7C7C7;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.information a{
+    text-decoration: none;
+    color: #C7C7C7;
+}
+#miniaturas{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 300px;
+    
+}
+#miniaturas img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+@media screen and (max-width: 800px){
+  
+    
+    .colum1 h1{
+        font-size: 14px !important;
+    }
+    
+    .colum1 p{
+        font-size: 10px !important;
+        
+    }
+    
+    .colum2 h1{
+        font-size: 14px !important;
+    }
+    
+    .colum2 p{
+        font-size: 10px !important;
+        
+    }
+    .colum3 h1{
+        font-size: 14px !important;
+    }
+    
+    .colum3 p{
+        font-size: 10px !important;
+        
+    }
+    
+    
+   
+    
+    .container-body{
+        flex-wrap: wrap;
+    }
+    
+    .colum1{
+        max-width: 100%;
+    }
+    
+    .colum2,
+    .colum3{
+        margin-top: 40px;
+    }
+    .imgf{
+        height: 200px !important;
+        width: 200px !important;
+        
+    }
+    #influcol{
+        flex-direction: column;
+    }
+}
+
+.sponsors{
+max-width: 200px !important;
+max-height: 200px !important;
+}
+#patrocinadores{
+    float: right;
+    margin-right: 10px;
+}
+#tienda{
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width: 800px){
+    
+    #productos {
+        display: flex !important;
+        flex-direction: column !important;
+        
+    }
+    #productos div{
+        display: flex !important;
+        flex-direction: column !important;
+        
+    }
+    .divprods{
+        margin-left: 0px!important;
+    }
+   #productos{
+       display: flex !important;
+       flex-direction: column !important;
+      margin-right: 50px !important;
+    
+   }
+   .row2{
+       margin-right: 10px;
+   }
+   .colum1 p{
+       margin-right: 20px !important;
+   }
+   #productos div{
+       width: 300px!important;
+   }
+   .divprods img{
+    height: 200px !important;
+    width: 200px !important;
+   }
+    #patrocinadores{
+     
+        float: left;
+        margin-left: 20px !important;
+        
+    }
+    #influcol div{
+       
+        padding: 10px !important;
+       
+        margin: 20px;
+    }
+    .redes img{
+        width: 70px !important;
+        height: 70px !important;
+    }
+    
+    .sponsors{
+        max-width: 100px !important;
+        max-height: 100px !important;
+        }
+    #lolm{
+        margin-left: 10px !important;
+        height: 70% !important;
+        width: 70% !important;
+    }
+    #lol{
+        height: 30px !important;
+        width:50px !important;
+    }
+    #logotab{
+        height: 70px !important;
+        width: 65px !important;
+    }
+    #madmadrid{
+        height: 70px !important;
+        width: 65px !important;
+    }
+    main{
+        padding-left: 10px;
+    }
+    #videosimg img{
+        height:100px;
+        width: 200px;
+
+    }
+    
+    #miniaturas img{
+        width: 300px !important;
+        height:170px !important;
+        margin-top: 15px;
+    }
+    #miniaturas{
+        
+        justify-content: space-evenly;
+        margin-left: 20px !important ;
+        flex-direction: column;
+        
+    }
+    
+    
+
+    .sponsors{
+        max-width: 170px;
+        max-height: 170px;
+        }
+   
+    #noticias_nuevas{
+        grid-template-columns:50% 50% !important;
+        grid-template-rows: 65% 35% !important;
+        
+    }
+    #imgprin{
+        grid-row: 1/2 !important;
+        grid-column: 1/3 !important;
+    }
+    #imgsecun1{
+        grid-row: 2/3 !important;
+        grid-column: 1/2 !important;
+    }
+    #imgsecun2{
+        grid-row: 2/3 !important;
+        grid-column: 2/3 !important;
+    }
+   
+    #noticias_nuevas{
+        padding: 0 !important;
+        width: 89% !important;
+        margin-left: 10px !important;
+        
+       
+        
+    }
+    #noticias_nuevas p{
+        font-size: 15px !important;
+        padding: 2px;
+    }
+    #mnoticias article{      
+        display: flex;
+        flex-direction: column;
+    }
+    #texto1{
+       
+        bottom: 30px !important;
+        left: 20px !important;
+        
+    }
+    
+    #texto2{
+        
+        top: 40px !important;
+        right: 70px !important ;
+        
+    }
+    #texto3{
+       
+        bottom: 10px !important;
+        right: 70px !important;
+       
+    }
+    #noticias_y_anuncios{
+        display: grid;
+        grid-template-columns:100% !important;    
+        grid-template-rows: 65% 35% !important;
+    }
+    #articles{
+        grid-row: 1/2 !important;
+        grid-column: 1/1 !important;
+    }
+    #anuncios{
+        grid-row: 2/3 !important;
+        grid-column: 1/1 !important;
+    }
+    .anunciosimg{
+        width: 380px !important;
+        height: 475px !important;
+        margin-left: 40px !important;
+    }
+    #equipos1,#equipos2{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        /* margin: 20px !important; */
+    }
+    #equipos1 img,#equipos2 img{
+        margin:20px;
+    } 
+    #contacto{
+        margin-left: 40px !important;
+    }
+    #contacto p{
+        margin-bottom: 45px !important;
+    }
+    #asocia{
+        font-size: 25px !important;
+    }
+    #ventajas{
+        margin-left: 50px !important;
+    }
+    #patrosactuales{
+        display: flex;
+        flex-direction: column;
+        margin-left: 45px !important;
+    }
+    #patrocoments{
+        display: flex;
+        justify-content: space-evenly;
+        width: 90% !important;
+        flex-direction: column;
+        margin-left: 15px !important;
+      
+    }
+    #patrocoments hr{
+        width: 200px !important;
+    }
+    #articles img{
+        height: 130px !important;
+        width: 230px !important;
+
+    }
+    .anunciosimg{
+        width: 280px !important;
+        height: 470px !important;
+    }
+    #anuncios{
+        margin-bottom: 50px !important;
+    }
+    #ventajas{
+        height: 500px !important;
+        margin-left: 30px!important;
+        width: 270px !important;
+    }
+    #patrosactuales div{
+      margin-left: 40px;   
+      margin-top: 30px;
+    }
+    #equipos1 img{
+        width: 240px !important;
+        height: 400px !important;
+        }
+        #equipos2 img{
+            width : 240px !important;
+            height: 400px !important; 
+        }
+        #eq1{
+            margin-left: 10px!important;
+        }
+        #topimg{
+            height: 25px !important;
+            width: 25px!important;
+            margin: 4px !important;
+        }
+        #v2,#v4{
+            display: flex;
+            flex-direction: column !important;
+        }
+        #v1,#v3,#v5{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        #valores{
+            margin: 0px !important;
+        }
+        #valores div{
+           
+            
+            padding: 0px !important;
+           
+            margin: 0px !important;
+        }
+        .imgv{
+            width: 100% !important;
+            height: 100% !important;
+        }
+        #valores p{
+            width: 100% !important;
+        }
+        #valores p,#valores h2{
+            font-size: 25px !important;
+            
+        }
+}
+#patrocinadores td{
+    border: 3px solid white;
+}
+#patrocinadores th{
+   font-size: 25px;
+    color: white;
+}
+footer h2{
+    text-align: center;
+    margin-top: 10px;
+}
+#lol{
+    height:80px ;
+    width: 150px;
+}
+#madmadrid,#logotab{
+    height:100px ;
+    width:100px ;
+}
+#clubs{
+    display: flex;
+    justify-content: space-evenly;
+}
+#partidos span,#partidos h2{
+    color: white;
+}
+#partidos{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+#lolm{
+    border: 5px solid #C2C2C2;
+    width:90%;
+    margin-left: 100px;
+}
+#span13{
+    background-color: red;
+    padding: 10px;
+    
+}
+.competicion{
+    float:right;
+    font-size: 25px;
+}
+.fecha{
+    float: left;
+    font-size: 25px;
+}
+.mini{
+    width: 517px;
+    height: 291px;
+}
+#videosimg{
+   
+    width: 80%;
+    margin-left: 300px;
+}
+#videosimg td{
+    padding :15px;
+}
+#videos{
+    color: white;
+}
+#datos{
+    background-color: #808080;
+}
+#td11,#td13,#clubs{
+    background-color: gray;
+}
+#lolm td{
+    text-align: center;
+}
+#td13{
+    padding:10px;
+}
+#td11{
+    background-color: blue;
+}
+#articles{
+    background-color: white;
+    margin: 30px;
+    padding: 15px;
+   
+    /* display: grid;
+    grid-template-columns:50% 50% ;
+    grid-template-rows:1fr 1fr 1fr ; */
+}
+#articles img{
+    height: 200px;
+    width: 300px;
+} 
+#mnoticias article{
+   
+    margin-top: 30px;
+    display: flex;
+}
+/* hr{
+    background-color: gray;
+    height: 3px;
+    margin :10px;
+} */
+.borde{
+    border-left: 2px solid grey;
+    margin: 5px;
+}
+/* #art1{
+grid-row: 1/2;
+grid-column: 1/2;
+}
+#art2{
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+#art3{
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+#art4{
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+#art5{
+    grid-row: 3/4;
+    grid-column: 1/2;
+} */
+#noticias_nuevas{
+    display: grid;
+    grid-template-columns: 65% 35% ;
+    grid-template-rows:50% 50% ;
+    width: 82%;
+    text-align: center;
+    border: 3px solid black;
+    margin-top: 50px;
+    margin-left: 100px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255 ,0.75);
+   
+    
+}
+#imgprin{
+    grid-row:1/3 ;
+    grid-column:1/2 ;
+    position: relative;
+}
+#imgsecun1{
+    grid-row:1/2 ;
+    grid-column:2/3 ;
+    position: relative;
+}
+#imgsecun2{
+    grid-row:2/3 ;
+    grid-column:2/3 ;
+    position: relative;
+}
+#noticias_nuevas img{
+    border: 3px solid black;
+     
+}
+
+
+/* #texto1{
+    position: absolute;
+} */
+#noticias_nuevas p{
+    position: absolute;
+    
+}
+#texto1{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    bottom: 30px;
+    left: 20px;
+    text-decoration: underline;
+}
+
+#texto2{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    top: 250px;
+    right: 270px;
+    text-decoration: underline;
+}
+#texto3{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    bottom: 30px;
+    right: 270px;
+    text-decoration: underline;
+}
+#articles span{
+    margin-left: 10px;
+}
+#articles article{
+   
+    border-bottom:4px solid gray ;
+    padding: 5px;
+}
+#noticias_y_anuncios{
+    display: grid;
+    grid-template-columns:70% 30% ;    
+    grid-template-rows: 100%;
+}
+#articles{
+    grid-row: 1/1;
+    grid-column: 1/2;
+}
+#anuncios{
+    margin-top: 29px;
+    grid-row: 1/1;
+    grid-column: 2/3;
+}
+#anuncios p{
+    font-size: 20px;
+    color: white;
+    text-decoration: underline;
+}
+#equipos1,#equipos2{
+    display:flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 40px;
+}
+#equipos1 img{
+width: 380px;
+height: 540px;
+}
+#equipos2 img{
+    width : 380px;
+    height: 540px; 
+}
+#equipos1 img:hover,#equipos2 img:hover{
+    transform: scale(1.15);
+    transition-duration: 1.5s;
+    
+}
+#contacto{
+    margin-top: 50px;
+    background-color: cyan;
+    color: white;
+    text-align: center;
+    width: 80%;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    margin-left: 185px;
+    
+    font-size: 20px;
+    font-weight: bold;
+}
+#contacto a{
+    text-decoration: none;
+    color: cyan;
+    padding: 15px;
+    background-color: white;
+    
+
+}
+#patrosactuales{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer {
+    padding-top: 10px;
+}
+#bmw{
+    position: relative;
+    bottom: 30px;
+}
+#monster{
+    position: relative;
+    bottom: 55px;
+}
+#msi{
+    position: relative;
+    top: 20px;
+}
+#ventajas{
+    background-color: cyan;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows:25% 1fr 1fr ;
+    width: 70%;
+    margin-left: 300px;
+    height: 370px;
+    margin-bottom: 50px;
+    padding: 10px;
+    font-size: 1.2em;
+    margin-top: 30px;
+}
+#asocia{
+    grid-row: 1/2;
+    grid-column: 1/4;
+    text-align: center;
+    text-decoration: underline;
+}
+#c1{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    border-bottom: 3px solid white;
+    
+}
+#c2{
+    grid-row: 2/3;
+    grid-column:2/3 ;
+    border-bottom: 3px solid white;
+    border-left: 3px solid white;
+}
+#c3{
+    grid-row: 2/3;
+    grid-column: 3/4;
+    border-bottom: 3px solid white;
+    border-left: 3px solid white;
+}
+#c4{
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+#c5{
+    grid-row: 3/4;
+    grid-column:2/3 ;
+    border-left: 3px solid white;
+}
+#c6{
+    grid-row: 3/4;
+    grid-column: 3/4;
+    border-left: 3px solid white;
+}
+
+#ventajas div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#patrocoments{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin-left: 310px;
+  
+}
+#pc1,#pc2,#pc3{
+    display: flex;
+    flex-direction: column;
+    background-color: cyan;
+    color: white;
+    margin: 50px;
+    align-items: center;
+    padding: 20px;
+}
+#pc1 img,#pc2 img,#pc3 img{
+    width: 100px;
+    height: 100px;
+}
+#patrocoments hr{
+background-color: white;
+ width: 300px;
+ margin: 10px;
+ 
+}
+#equipolol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.players{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    padding: 10px;
+    margin: 40px;
+    border: 3px solid gray;
+    padding-top:30px ;
+    color: white;
+    border-radius: 20px;
+}
+#topimg{
+    height: 70px;
+    width: 70px;
+}
+#armut,#elyoya,#mac,#grabbz,#kaiser{
+    margin: 0;
+padding: 0;
+border-radius: 800px;
+height: 130px;
+width: 130px;
+}
+#rekkles{
+    margin: 0;
+    padding: 0;
+    border-radius: 800px;
+    height: 160px;
+    width: 130px;
+}
+#larssen{
+    margin: 0;
+    padding: 0;
+    border-radius: 800px;
+    height: 130px;
+    width: 160px;
+}
+#loldes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: black;
+    width: 40%;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 15px;
+}
+#loldes img{
+    height: 30%;
+    width: 30%;
+}
+#eq1{
+    background-color: black;
+    width: 90%;
+    height: 90%;
+    margin: 70px;
+}
+@media screen  and (max-width:1440px ) {
+    video{
+        align-self: center;
+    }
+    #patrocinadores{
+        align-self: center;
+    }
+    #inicio{
+        display: flex;
+        flex-direction: column;
+    }
+    .divprods1 {
+        padding-bottom: 50px !important;
+    }
+    #princ{
+        height: 430px !important;
+    }
+    #secun1,#secun2{
+        height: 210px !important;
+    }
+    
+    #productos .escalamedia{
+        display: flex !important;
+        margin-left: 40px !important;
+    }
+    #productos {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    
+    
+       #patrosactuales{
+           margin-left: 100px !important;
+       }
+       #noticias_y_anuncios{
+        grid-template-columns:50% 50%;
+        
+    }
+        #anuncios{
+            margin-left: 0px !important;
+        }
+       #texto2{
+        
+        top: 190px !important;
+        right: 80px !important ;
+        
+    }
+    #texto3{
+       
+        bottom: 30px !important;
+        right: 70px !important;
+       
+    }
+}
+@media screen and (min-width:800px) and (max-width:1300px ) {
+    #pieslider{
+        margin-left: 140px;
+    }
+    .slider{
+        margin-right: 100px !important;
+    }
+    .escalasmediastop{
+        display: flex;
+        flex-direction: column ;
+    }
+    .res1300{
+        display: flex;
+        flex-direction: row !important;
+    }
+    .divprods1 {
+        padding-bottom: 50px !important;
+    }
+    #princ{
+        height: 370px !important;
+    }
+    #secun1,#secun2{
+        height: 180px !important;
+    }
+    #texto2{
+        
+        top: 150px !important;
+        right: 70px !important ;
+        
+    }
+    #productos .escalamedia{
+        display: flex !important;
+        margin-left: 40px !important;
+    }
+    #productos {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .row2{
+        font-size: 14px !important;
+    }
+    .colum1 h1{
+        font-size: 20px !important;
+    }
+    
+    .colum1 p{
+        font-size: 14px !important;
+        
+    }
+    
+    .colum2 h1{
+        font-size: 16px !important;
+    }
+    
+    .colum2 p{
+        font-size: 10px !important;
+        
+    }
+    .colum3 h1{
+        font-size: 16px !important;
+    }
+    
+    
+    
+    
+    .colum1{
+        max-width: 200px !important;
+    }
+    
+    .colum3{
+        max-width: 200px !important;
+    }
+    
+    .colum2{
+        max-width: 200px !important;
+        
+    }
+   #patrocinadores{
+      margin-left: 170px !important;
+   }
+   video{
+    width:945px !important;
+     height:479px !important;
+   }
+   #miniaturas{
+       margin-left: 40px !important;
+   }
+   #miniaturas img{
+       height: 300px !important;
+       width: 400px !important;
+   }
+   #inicio{
+       display: flex;
+       flex-direction: column;
+   }
+   #lolm{
+       margin-left: 10px;
+   }
+   #articles article{
+       display: flex;
+       flex-direction: column;
+   }
+  #noticias_y_anuncios{
+      grid-template-columns:50% 50%;
+      
+  }
+   .anunciosimg{
+       width: 450px !important;
+       height: 670px !important;
+   }
+   
+/* #patrosactuales{
+    display: flex;
+    flex-direction: column;
+} */
+ #contacto{
+     margin-left: 100px!important;
+ }
+ #patrosactuales{
+     margin-top: 100px;
+ }
+ #ventajas{
+     margin-left: 150px!important;
+ }
+ #patrocoments div, #patrocoments hr{
+     width: 200px !important;
+     
+ }
+ #patrocoments{
+     margin-left: 170px !important;
+
+ }
+ #patrosactuales {
+     display: flex;
+     flex-direction: column;
+     margin-left: 200px !important;
+ }
+ #equipos1 img{
+    width: 240px;
+    height: 400px;
+    }
+    #equipos2 img{
+        width : 240px;
+        height: 400px; 
+    }
+    #v2,#v4{
+        display: flex;
+        flex-direction: column !important;
+    }
+    #v1,#v3,#v5{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .imgv{
+        width: 80% !important;
+        height: 80% !important;
+        align-self: center;
+    }
+    #valores p{
+        width: 100% !important;
+    }
+    #influcol{
+        flex-direction: column;
+    }
+}
+#productos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 80%;
+}
+#productos hr{
+    width: 80%;
+    height: 2px;
+    background-color: cyan;
+    color: cyan;
+}
+.divprods a{
+    text-decoration: none;
+}
+.divprods{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: cyan;
+    border: 3px solid cyan;
+    border-radius: 30px;
+    height: 390px;
+    width: 410px;
+}
+.divprods h2{
+    color: cyan;
+}
+.divprods p{
+    font-size: 60px;
+    margin-right: 50px;
+}
+#productos div p{
+    align-self: flex-end;
+}
+#tienda{
+    display: flex;
+    justify-content: center;
+}
+#valores div{
+    background-color: cyan;
+    color: white;
+    
+    padding: 30px;
+    border-radius: 20px;
+    border: 3px solid white;
+    margin: 20px;
+}
+#v1,#v2,#v3,#v4,#v5{
+    display: flex;
+}
+.imgv{
+    width: 30%;
+    height: 30%;
+}
+#valores{
+    margin: 100px;
+}
+#valores p,#valores h2{
+    font-size: 2em;
+    text-align: center;
+}
+#valores p{
+    width: 70%;
+}
+ #valores h2{
+     text-decoration: underline;
+     font-weight: bold;
+ }
+ #y1,#y2,#y3{
+     display: flex;
+     flex-direction: column;
+ }
+ #influcol div{
+    background-color: cyan;
+    color: white;
+    
+    padding: 30px;
+    border-radius: 20px;
+    border: 3px solid white;
+    margin: 20px;
+}
+.imgf{
+    height: 400px;
+    width: 400px;
+    align-self: center;
+}
+#influcol{
+    display: flex;
+}
+.redes img{
+    width: 120px;
+    height: 120px;
+}
+.redes{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white !important;
+
+}
+#influcol div h2{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#thp,#siguep,#ultimvids{
+    color: black !important;
+    font-size: 30px;
+}
+#inicio table{
+    margin-top: 40px !important;
+}
+#td11rl{
+    background-color: lightseagreen !important;
+}
+#td11cs{
+    background-color: yellow !important;
+}
+#td11val{
+    background-color: red !important;
+}
+#td11r6{
+    background-color: orangered !important;
+}
+#td11fort{
+    background-color: green !important;
+}
+#productos div img{
+    height: 250px;
+    width: 270px;
+}
+#productos div{
+    margin: 10px;
+}
+#patroscont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+#contacto{
+    margin-top: 50px !important;
+}
+#patrocoments{
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+}
+#patrosactuales img{
+    margin: 40px !important;
+}
+#patrosactuales{
+    align-self: center !important;
+}
+#secun1,#secun2{
+    height: 285px;
+}
+.slider{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 50px;
+}
+.slider ul{
+    display:flex ;
+    padding: 0;
+    width: 400%;
+    animation: cambio 20s infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+   max-width: 100%;
+   max-height: 100%;
+}
+
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+#pieslider{
+    background-color: white;
+    border: 3px solid cyan;
+    padding: 50px;
+    width: 60%;
+   
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 150px;
+}
+#pieslider h2{
+ color: cyan;
+ text-decoration: underline;
+ font-size: 35px;
+}
+.imagenestienda{
+    display: flex;
+}
+#anunciomedio{
+  max-width: 100%;
+    height: 720px !important;
+    align-self: center;
+}
+.divprods1 a{
+    text-decoration: none;
+}
+.divprods1{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: cyan;
+    border: 3px solid cyan;
+    border-radius: 30px;
+    height: 390px;
+    width: 410px;
+    margin: 20px;
+}
+.divprods1 h2{
+    color: cyan;
+}
+.divprods1 p{
+    font-size: 60px;
+    margin-right: 50px;
+}
+.escalasmediastop{
+    display: flex;
+}
+#menutop{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.divprods1 hr{
+    width: 80%;
+    height: 2px;
+    background-color: cyan;
+    color: cyan;
+}
+.articulo{
+    background:white;
+}
+.imgdescrip{
+    display: grid;
+    grid-template-columns: 5% 65% 1fr;
+    grid-template-rows: 1fr 1fr;
+    color: cyan;
+}
+.miniaturaprod{
+    grid-row: 1/3;
+    grid-column: 1/2;
+    /* display: flex;
+    flex-direction: column; */
+    margin-top: 100%;
+    margin-left: 10px;
+}
+.miniaturaprod img{
+    border: 2px solid cyan;
+}
+.imagengrande{
+    grid-row: 1/3;
+    grid-column: 2/3;
+}
+.descripcion{
+    grid-row: 1/3;
+    grid-column: 3/4;
+    margin-right: 10px;
+    border-left:3px solid cyan ;
+    padding-left: 10px;
+}
+.precio_boton{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.precio_boton h2{
+    margin-right: 150px;
+    margin-top: 20px;
+    font-size: 50px;
+}
+.descripcion p{
+    margin-top: 15px;
+    font-size: 18px;
+    padding:10px;
+    color: black;
+}
+.precio_boton button{
+    color: cyan;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+
+}
+.descripcion h1{
+    font-size: 40px;
+    text-decoration: underline;
+}
+.divprods1{
+    padding-bottom: 50px;
+}
+@media screen and (max-width:800px ) {
+#princ{
+    height: 170px !important;
+    margin-top: 5px !important;
+}
+#secun1,#secun2{
+    height: 80px !important;
+    margin-top: 5px !important;
+}
+#texto1{
+       
+    bottom: 30px !important;
+    left: 20px !important;
+    
+}
+
+#texto2{
+    
+    top: 40px !important;
+    right: 50px !important ;
+    
+}
+#texto3{
+   
+    bottom: 10px !important;
+    right: 50px !important;
+   
+}
+}
